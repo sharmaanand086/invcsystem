@@ -1,0 +1,96 @@
+.main-container{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url(https://lh3.googleusercontent.com/wZCWHI81wbK_Z_XyYfq7ootwSZlp17v08IZ3xhULTFo3TL2mWy8vhvfpHM8dFkAf6N5lh7BtabynkHW43Xqxf9A=w1349);
+}
+.ab{
+border-radius:10px;
+background:grey;
+}
+.logo img{
+    max-width: 100%;
+    width: 55%;
+    padding: 5% 0;
+}
+.thank-progress{
+	color:#fff;
+	text-align: center;
+}
+.thank-progress p{
+	font-size: 0.875rem;
+	font-family: Roboto;
+}
+.thank-progress strong{
+	    font-size: 2rem;
+}
+.mgs {
+    padding-bottom: 3%;
+}
+.connected{
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.register{
+    font-size: 2rem !important;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 2% 0 1%;
+}
+.thank-video{
+    padding: 2% 0;
+    width:60%;
+    margin: auto;
+}
+.thank-video iframe{
+    width: 75%;
+    height: 280px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding:0;
+    margin-bottom: 2%;
+}
+li{
+	padding:0 3%;
+}
+
+@media only screen and (max-width: 991px){
+	.thank-video iframe {
+    width: 75%;
+    height: 190px;
+}
+}
+@media only screen and (max-width: 768px){
+.register {
+    font-size: 1.6rem !important;
+}
+.thank-progress strong {
+    font-size: 1.6rem;
+}
+.connected {
+    font-size: 32px;
+}
+}
+@media only screen and (max-width: 480px){
+.register {
+    font-size: 1.2rem !important;
+}
+.thank-progress strong {
+    font-size: 1.2rem;
+}
+.thank-video {
+    width: 100%;
+}
+.thank-video iframe {
+    width: 90%;
+    height: 165px;
+}
+.connected {
+    font-size: 25px;
+}
+}

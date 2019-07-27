@@ -1,0 +1,891 @@
+body{
+	font-family: Roboto, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.top{
+	    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://lh3.googleusercontent.com/7qTIgvqPPODDKPtpCI2hIWqTypMVEoSlbdG8oxGC7-Z2nUVdri3n3ehGOc4KjlzweC6r_DWPfLOyvQ26vBMOug=w1349);
+}
+.top-main{
+	padding: 1%;
+}
+.topfontsize{
+	font-size: 14px;
+}
+.topcolor
+{
+	color: rgb(240, 97, 55);
+}
+.top-bar{
+	text-align: center;
+	padding: 1vw	;
+}
+.lazyload{
+	    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1075px;
+}
+.top-date strong{
+	font-size: 2rem;
+}
+.top-time strong{
+	font-size: 1.5rem;
+}
+.top-last strong{
+	font-size: 1rem;
+}
+.lp-button{
+	    border-color: rgb(221,108,69);
+    background: rgb(221,108,69);
+    color: rgba(255,255,255,1);
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    text-shadow: none;
+    transition: color 0.2s linear,background 0.2s linear,border-color 0.2s linear, text-shadow 0.2s linear;
+    text-decoration: none;
+    width: 34%;
+    font-weight: bold;
+    padding: 24px;
+    font-family: Roboto;
+    border-radius: 3px;
+}
+.mid-top{
+	font-size: 2rem;
+	text-align: center;
+	padding: 2% 16%;
+}
+.ul-md{
+	    line-height: 1;
+    text-align: left;
+    font-size: 1.25rem;
+        margin-top: 7%;
+}
+.ul-md li{
+	    margin-bottom: 0.5em;
+    padding-left: 1.5em;
+}
+.containers{
+	    padding: 0 8%;
+}
+.mid-youtube{
+	    width: 50%;
+    /* padding: 1%; */
+    display: inline-block;
+    float: right;
+    height: 277px;
+    text-align: center;
+}
+.full-width{
+	width: 100%;
+}
+.font-left
+{
+	min-height: 1em;
+    white-space: pre-wrap;
+    text-align: left;
+    line-height: 1;
+    font-size: 1.25rem;
+    font-family: Roboto;
+    color: rgba(0,0,0,1);
+}
+.mid-last{
+	line-height: 1.25;
+    font-size: 1.25rem;
+    margin-bottom: 1.5em;
+}
+.button-width
+{
+	width: 93%;
+}
+.button-md{
+	text-align: center;
+	padding: 1%;
+}
+.hrclass{
+	height: 0;
+    width: 100%;
+    margin: 12px 0;
+    border: none;
+    border-bottom-width: 3px;
+    border-bottom-color: rgba(0,0,0,1);
+    border-bottom-style: dashed;
+}
+.topline{
+	font-size: 2.5rem;
+}
+.lp-text-react
+{
+	padding: 1%;
+}
+.lp-text-react p
+{
+	margin-bottom: 1.5em;
+    margin-top: 0;
+    text-align: left;
+    font-size: 1.125rem;
+    font-family: Roboto;
+    color: rgba(0,0,0,1);
+}
+.midline{
+	    font-size: 1.5rem;
+}
+.midtopline{
+	line-height: 1.125;
+    font-size: 2rem;
+}
+.fstbox{
+	    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://lh3.googleusercontent.com/VH2tGr6TbS2w5kXIrcuO8qF_qiys45DSMPuapq8LAT5cas_N8CRr76-vgncmv9jVfGCgbDNA2Fp3IFvnbdmFBNQ=w339);
+
+}
+.lp-text-react1{
+    padding: 1%;
+    display: inline-block;
+    width: 100%;
+}
+.divcenter{
+	margin-bottom: 1.5em;
+    margin-top: 0;
+    font-size: 1.75rem;
+    font-family: Roboto;
+    color: rgba(0,0,0,1);
+	text-align: center;
+}
+.divleft{
+	margin-bottom: 1.5em;
+    margin-top: 0;
+    font-size: 1.125rem;
+    font-family: Roboto;
+	text-align: left;
+}
+.akfont{
+	font-size: 2.5rem;
+}
+.mid-youtube1{
+		 width: 50%;
+    float: left;
+    text-align: center;
+}
+.bhtop strong{
+	font-size: 1.25rem;
+}
+.bhmid{
+	font-size: 1.125rem;
+}
+.smid{
+	    font-size: 1.75rem;
+}
+.pfst{
+	font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.25;
+}
+.pfst1{
+	font-size: 1.5rem;
+    text-align: left;
+    line-height: 1.25;
+}
+.topboxa{
+	    width: 30%;
+    display: inline-block;
+    padding: 1%;
+    background-color: rgba(221,108,69,1);
+    border-color: rgba(221,108,69,1);
+    padding: 1%;
+}
+.topboxb{
+	padding: 7%;
+}
+.topboxc{
+	    padding: 6% 0 0 0;
+    margin: 0;
+}
+.topboxaa{
+	width: 30%;
+    display: inline-block;
+    background-color: rgba(113,188,236,1);
+    border-color: rgba(113,188,236,1);
+    padding:  0px 0px 12px 0px;
+}
+.topboxaaa{
+	width: 30%;
+    display: inline-block;
+    background-color: rgba(245,184,2,1);
+    border-color: rgba(245,184,2,1);
+    padding:  1%;
+}
+/*************************LAST SECTION**************************************/
+.last-title{
+    padding: 2vw;
+    background-color: rgba(0,0,0,1);
+    border-color: rgba(0,0,0,1);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+.last-calender-wrapper{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url(https://lh3.googleusercontent.com/jjEfmWm8kJp1cShI8wV3cTKUyVTFP9YEOMTd3CkMK-HrzWfyh6Y94AiIRQD0T70H47x2bVHT7clARy-uQ649=w1349);
+        width:100%;
+        text-align: center;
+}
+.button-width {
+    width: 94%!important;
+}
+.calender-container{
+    width:85%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+        padding: 3% 0;
+}
+.calender-left{
+    width:48%;
+    background:#fff;
+}
+.calender-right{
+    width:48%;
+    background:#fff;
+    
+}
+.calender-content{
+    padding: 0 5%;
+    display: inline-block;
+    width: 90%;
+}
+.calender-title{
+    color: rgb(113, 188, 236);
+    font-size: 1.75rem;
+    font-weight: bold;
+        margin-bottom: 10px;
+}
+.calender-date {
+    width: 25%;
+    float:left;
+}
+.month{
+    background: rgb(113,188,236);
+}
+.month p{
+    padding: 10% 35%;
+    color: #fff;
+}
+.date-cal{
+    margin-top: -15%;
+}
+.date-cal p{
+    font-size: 4.25rem;
+    font-weight: 900;
+    color: rgba(51,51,51,1);
+    margin:0;
+}
+.calender-status {
+    width: 70%;
+    float: right;
+    font-size: 1.8rem;
+    padding-top: 15%;
+    line-height: 1.125;
+}
+.calender-regbtn {
+    border-color: rgb(113,188,236);
+    background: rgb(113,188,236);
+    width: 85%;
+    margin: 4% auto;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    font-family: Roboto;
+        font-size: 1.125rem;
+}
+.calender-timer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 7% auto 5%;;
+}
+.calender-timer-section-wrap{
+    width:23%;
+}
+.css-aizp4c  {
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 5px;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    color: rgba(255,255,255,1);
+    background: rgb(113,188,236);
+}
+.css-aizp4c:before {
+    background: rgb(89,147,185);
+}
+.css-aizp4c:before {
+    content: '';
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.css-aizp4c span {
+    display: block;
+    margin-top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.cal-time-name{
+    white-space: nowrap;
+    word-break: break-word;
+    margin-top: 8px;
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(0,0,0,1);
+}
+/********************************EXTRA CLASSES***************/
+.coach-img{
+    width: 48%;
+    float: right;
+    margin-top: 7%;
+}
+.xyz{
+    width: 88%;height: 310px;
+}
+.testi{
+    width: 100%;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.125;
+    display:flex;
+    justify-content: space-between;
+}
+.ab{
+    padding-bottom: 5%;
+}
+.first-div{
+    width: 48%;display: inline-block;
+}
+.bollywood{
+    width: 48%;
+    display: inline-block;
+}
+
+.sessions{
+         margin-top: 2%;
+     width:100%;
+     display:flex;
+     padding: 3% 0;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)), url(https://lh3.googleusercontent.com/3Yn1cRrpsL9Thvz_-t7DZwoOQUDg7O27-3IIUhaYj97RxzsF5E3dkiqGknRLwp7ELrHrJDCB965I2RhRgO5VGJI=w1349);
+     background-size:cover;
+ }
+ .top-right{
+    width: 40%;
+        padding: 0 4%;
+}
+.top-left{
+    width: 60%;
+        padding-top: 10%;
+        color:#fff;
+}
+ 
+            ::placeholder {
+                color: #000;
+                opacity: 1;
+            }
+            
+            :-ms-input-placeholder {
+                color: #000;
+            }
+            
+            ::-ms-input-placeholder {
+                color: #000;
+            }
+            
+            .progress {
+                height: 8px;
+                background-color: rgba(76, 81, 93, 1);
+                width: 90%;
+                margin: auto;
+            }
+            
+            .pop_dialog {
+                width: 45%;
+                margin: 2% auto;
+            }
+            
+            .pop_content {
+                border-radius: 0px;
+                border: 13px solid #000;
+            }
+            
+            .progress-bar-success {
+                background-color: #000;
+            }
+            
+            .pop_header {
+                padding: 25px;
+                border-bottom: none;
+            }
+            
+            .modal-footer {
+                border-top: none;
+            }
+            
+            .complete {
+                text-align: center;
+                font-size: 18px;
+                color: #6d6b6b;
+            }
+            
+            .drop_options {
+    width: 100%;
+    margin-top: 12px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 6px 8px;
+    color: #000;
+}
+            
+            .text_value.text_value {
+                width: 95%;
+                margin-top: 12px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    font-size: 15px;
+    padding: 8px 8px;
+    color: #000;
+            }
+            
+            .describe {
+                margin: 22px 0;
+                width: 80%;
+                overflow: scroll;
+            }
+            
+            .count_button {
+                width: 100%;
+                font-size: 1rem;
+                background-color: #f77534 !important;
+                font-weight: 600;
+                color: #fff !important;
+                padding: 15px;
+                border: none;
+                border-radius: 4px;
+            }
+            
+            .btn-default:hover {
+                background-color: rgb(170, 83, 53);
+                border-color: rgb(170, 83, 53);
+                color: rgb(255, 255, 255);
+            }
+            
+            .pop_footer {
+                  width: 100%;
+                  margin: auto;
+                  padding: 6% 0px 0;
+              }
+            
+            .policy {
+                font-size: 13px;
+                color: #000;
+                text-align: center;
+                padding-top: 25px;
+                margin: 0;
+            }
+            
+            .disable {
+                text-decoration-line: line-through;
+            }
+            
+            .pop-form {
+    width: 75%;
+    margin: auto;
+    background: #ffffff57;
+    padding: 5% 8%;
+}
+            .close-mod{
+                float: right;
+                border: none;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                font-size: 20px;
+            }
+            .mod-title{
+    background: #ffffff57;
+    font-weight: 700;
+    text-align: center;
+    padding: 18px 8% 0;
+    font-size: 1.2rem;
+    width: 75%;
+    margin: auto;
+}
+.checkab{
+    margin-top: 4%;
+    height: 18px;
+    width: 18px;
+    /* border-radius: unset; */
+    /* background: transparent; */
+}
+label{
+    display:flex;
+    width:100%;
+}
+label p{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.top-bar img{
+    width:55%;
+}
+
+
+/**************************** *************************************************/
+
+@media screen and (max-width: 768px) {
+  .mid-top {
+    padding: 7% 1% 2%;
+    font-size: 1.50rem;
+  }
+  .newbutton{
+    width: 87%;
+  }
+  .top-date strong {
+    font-size: 1.5rem;
+    }
+    .top-time strong {
+    font-size: 1.125rem;
+    }
+    .first-div{
+    width: 100%;
+    display: block;
+        margin-top: -4%;
+    }
+    .mid-youtube{
+    width: 100%;
+    padding: 1%;
+    display: block;
+    float: none;
+    height: 277px;
+    text-align: center;
+    }
+    .mid-youtube1{
+    width: 100%;
+    padding: 1%;
+    display: unset;
+    float: none;
+    height: 277px;
+    text-align: center;
+    }
+    .mid-youtube2{
+    width: 100%;
+    padding: 1%;
+    display: contents;
+    float: none;
+    height: 277px;
+    text-align: center;
+    }
+    .topboxa{
+        width: 100%;
+        padding:0;
+         margin-bottom:5%;
+    }
+    .topboxaa{
+        width: 100%;
+        padding:0;
+         margin-bottom:5%;
+    }
+    .topboxaaa{
+        width: 100%;
+        padding:0;
+    }
+    .topboxb {
+    padding: 5%;
+}
+    .lp-button{
+        width:55%;
+    }
+    .topline {
+    font-size: 2rem;
+}
+.lp-text-react p {
+    margin-bottom: 0.8em;
+}
+.testi{
+    display:block;
+}
+.topboxc {
+    padding: 2% 0 2% 0;
+}
+.divleft {
+    margin-bottom: 1em;
+}
+.bollywood{
+    width:100%;
+    margin-top: 6%;
+}
+.pfst1{
+    margin-top:0;
+}
+.coach-img {
+    width: 100%;
+    float: right;
+    margin-top: 0%;
+}
+.calender-container {
+    display: block;
+    }
+.calender-left {
+    width: 75%;
+    background: #fff;
+    margin: 0 auto 5%;
+    padding: 2%;
+}
+.calender-right {
+    width: 75%;
+    background: #fff;
+    margin: auto;
+    padding: 2%;
+}
+.reveal-modal {
+    width:80%;
+    margin:auto;
+    left:10%;
+}
+.popup img {
+    width: 80%;
+    }
+    .popup {
+    width: 100%;
+    margin: 0% auto 0;
+}
+.popup .row input {
+    width: 80%;
+    }
+    .row {
+    width: unset;
+}
+.top-right {
+    width: 50%;
+    padding: 0 0%;
+}
+.top-bar img {
+    width: 75%;
+}
+}
+@media screen and (max-width: 640px) {
+    .sessions {
+    display: block;
+    }
+    .top-right {
+    width: 100%;
+    padding: 0;
+}.pop-form {
+    width: 55%;
+}
+.mod-title {
+    width: 55%;
+}
+    .top-left {
+    width: 100%;
+    padding-top: 4%;
+    color: #fff;
+    padding-bottom: 6%;
+}
+    .popup h1 {
+    font-size: 20px;
+}
+    .lp-button {
+    width: 80%;
+    padding: 16px;
+}
+.topline {
+    font-size: 1.6rem;
+}
+.ul-md {
+    font-size: 1.1rem;
+    }
+    .pfst {
+    font-size: 1rem;
+}
+.last-title {
+    font-size: 1.6rem;
+}
+.calender-left {
+    width: 90%;
+    }
+    .calender-right {
+    width: 90%;
+}
+    }
+@media screen and (max-width: 580px) {
+   .text_value.text_value {
+    width: 94%;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 10px;
+}
+.pop-form {
+    padding: 2% 8%;
+}
+.count_button {
+    font-size: 0.8rem;
+}
+    .date p {
+    font-size: 2.25rem;
+}
+.calender-status {
+    font-size: 1.4rem;
+    padding-top: 12%;
+}
+.css-aizp4c {
+    text-align: center;
+    display: block;
+    width: 90%;
+    height: 80%;
+    padding: 0 0 0px;
+    font-size: 2rem;
+    }
+    .calender-timer {
+    margin: 0% auto 5%;
+}
+.calender-title{
+margin-top: 10px;
+}
+.mid-last {
+    line-height: 1.25;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+.ul-md {
+    font-size: 1rem;
+}
+.font-left {
+    font-size: 1rem;
+}
+.topline {
+    font-size: 1.2rem;
+}
+.lp-text-react p {
+    margin-bottom: 0.5em;
+    font-size: 1rem;
+}
+.midline {
+    font-size: 1.2rem;
+}
+.midtopline {
+    line-height: 1.125;
+    font-size: 1.4rem;
+}
+.testi {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    }
+    .testi {
+    font-size: 1rem;
+}
+.divcenter {
+    font-size: 1.5rem;
+    }
+    .divleft {
+    margin-bottom: 1.2em;
+    margin-top: 0;
+    font-size: 1rem;
+}
+.xyz {
+    width: 100%;
+    height: 270px;
+}
+.bhmid {
+    font-size: 1rem;
+}
+.pfst1 {
+    margin-bottom: 8px;
+}
+.last-title {
+    font-size: 1.4rem;
+}
+.footer-text {
+
+    font-size: 12px;
+    padding: 1%;
+}
+.popup p {
+
+    font-size: 16px;
+}
+
+.drop_options {
+
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 420px) {
+    .text_value.text_value {
+    width: 94%;
+    }
+    .mod-title {
+    width: 65%;
+}
+   .pop-form {
+    width: 65%;
+}
+    .count_button {
+    width: 100%;
+   
+    }
+    .calender-title {
+    font-size: 1.3rem;
+}
+
+.calender-date {
+    width: 30%;
+    }
+    .month p {
+    padding: 10% 18%;
+}
+.calender-status {
+    font-size: 15px;
+    padding-top: 20%;
+}
+.date p {
+    font-size: 2rem;
+}
+.calender-regbtn {
+    margin: 2% auto 4%;
+    padding: 10px;
+    font-size: 1rem;
+}
+.css-aizp4c {
+    font-size: 1.5rem;
+}
+.submit {
+    width: 251px;
+    font-size: 1rem;
+}
+.mid-youtube {
+    height: 220px;
+    }
+    .containers {
+    padding: 0 6%;
+}
+.xyz {
+    width: 100%;
+    height: 220px;
+}
+    }
